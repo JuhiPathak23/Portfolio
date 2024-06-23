@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juhi Pathak's Portfolio</title>
+    <link rel="shortcut icon" href="./assets/images/icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box"> <img src="./assets/images/PASSPORTPHOTO.png" alt="Juhi Pathak" width="80" /> </figure>
+          <div class="info-content">
+            <h1 class="name" title="Juhi Pathak">Juhi Pathak</h1>
+            <p class="title">Software Developer</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span> <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box"> <ion-icon name="mail-outline"></ion-icon> </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:pathakkakul@gmail.com" class="contact-link">pathakkakul@gmail.com</a> </div> </li>
+
+            <li class="contact-item">
+              <div class="icon-box"> <ion-icon name="phone-portrait-outline"></ion-icon> </div>
+              <div class="contact-info">
+                <p class="contact-title">LinkedIn</p>
+                <a href="https://www.linkedin.com/in/juhi-pathak/" class="contact-link">juhi-pathak</a> </div> </li>
+
+            <li class="contact-item">
+              <div class="icon-box"> <ion-icon name="calendar-outline"></ion-icon> </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="2002-10-23">October 23, 2002</time> </div> </li>
+
+            <li class="contact-item">
+              <div class="icon-box"> <ion-icon name="location-outline"></ion-icon> </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p> <address>Greater Noida, India</address> </div></li>
+          </ul>
+
+          <div class="separator"></div>
+          <ul class="social-list">
+            <li class="social-item"> <a href="https://github.com/JuhiPathak23" class="social-link">
+                <ion-icon name="logo-github"></ion-icon> </a> </li>
+
+            <li class="social-item"> <a href="https://x.com/The_LoneArtist" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon> </a> </li>
+
+            <li class="social-item"> <a href="https://www.instagram.com/thelone.artist/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon> </a> </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item"> <button class="navbar-link active" data-nav-link>About</button> </li>
+            <li class="navbar-item"> <button class="navbar-link" data-nav-link>Resume</button> </li>
+            <li class="navbar-item"> <button class="navbar-link" data-nav-link>Portfolio</button> </li>
+            <li class="navbar-item"> <button class="navbar-link" data-nav-link>Blog</button> </li>
+            <li class="navbar-item"> <button class="navbar-link" data-nav-link>Contact</button> </li>
+          </ul> </nav>
+
+        <article class="about active" data-page="about">
+          <header> <h2 class="h2 article-title">About Me</h2> </header>
+
+          <section class="about-text">
+            <p> I am Juhi Pathak, currently pursuing my B.Tech in Computer Science and Engineering, Batch of 2025.
+              My academic journey is fueled by a deep-seated passion for technology, particularly in the realms of frontend development
+              and backend. I thoroughly enjoy crafting user-friendly interfaces that seamlessly integrate creativity with functionality,
+              while also ensuring robust data management and efficient server-side operations. </p>
+              <p>Beyond frontend and backend expertise, I am actively exploring Machine Learning and Generative AI,
+                fascinated by their potential to innovate and automate processes. My journey also includes mastering Google Cloud Platform (GCP),
+                where I harness its tools and services to build scalable applications and deploy solutions effectively. 
+                Driven by a curiosity to push technological boundaries, I relish challenges that expand my knowledge
+                and skills in the dynamic field of computer science. </p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box"> <img src="./assets/images/icon-cloud.png" alt="Google Cloud Platform" width="40" /> </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Google Cloud Platform</h4>
+                  <p class="service-item-text"> Building efficient solutions of cloud-based microservices. </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box"> <img src="./assets/images/icon-tensorflow.png" alt="tensorflow" width="40" /> </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Tensorflow</h4>
+                  <p class="service-item-text"> Playing around with AI/ML problems to find real-time solutions. </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box"> <img src="./assets/images/icon-web.png" alt="frontend" width="40" /> </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Frontend</h4>
+                  <p class="service-item-text"> Designing beautiful responsive websites for all purposes. </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box"> <img src="./assets/images/icon-figma.png" alt="figma" width="40" /> </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Graphic Designing</h4>
+                  <p class="service-item-text"> Making appealing visuals for graphic designs as a hobby.</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Achievements</h3>
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="GDSC Lead" width="60" data-testimonials-avatar />
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title> GDSC Lead</h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>Since stepping into the role of Club Lead for the Google Developer Student Clubs
+                      in July 2023, I've led a dynamic community of over 2000 technology enthusiasts
+                      sponsored by Google. As the Lead, I've focused on fostering engagement and facilitating
+                      knowledge exchange among members. Organizing numerous national-level programs
+                      has been a highlight, creating a collaborative learning environment that enhances
+                      technical skills and promotes innovation. It has immensely been a productive experience
+                      to learn extensively from this role. </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-2.png" alt="IEEE Student Secretary" width="60" data-testimonials-avatar/>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title> IEEE Student Secretary</h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>I serve as the IEEE Secretary at my college, where I play a pivotal role
+                      in managing administrative tasks and coordinating activities within our IEEE
+                      student branch. Additionally, I'm honored to be a core team member and web
+                      developer for the IEEE UP Student Activities Committee at the state level.
+                      In this capacity, I contribute to planning and executing initiatives that
+                      promote technical knowledge and professional development among IEEE members
+                      across Uttar Pradesh. These roles have not only deepened my understanding of
+                      organizational leadership but have also allowed me to leverage my web development
+                      skills to enhance IEEE's online presence and outreach efforts. </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-3.png" alt="AWS AIML Scholar" width="60" data-testimonials-avatar/>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title> AWS AIML Scholar</h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>Receiving the AWS AI/ML Scholarship for the Udacity Nanodegree in AI Programming
+                      with Python was a transformative experience for me. Among the 2,000 recipients
+                      annually, I was fortunate to be selected and completed the program within the top
+                      500 students globally. This scholarship not only provided me with comprehensive
+                      skills-based training in AI and machine learning but also offered invaluable coaching
+                      and mentorship from industry professionals. The program, covering full tuition for
+                      Udacity's Nanodegree, equipped me with essential programming tools and hands-on
+                      experience in AI projects. It was a pivotal opportunity that allowed me to delve deep
+                      into the fundamentals of machine learning, even without prior technical knowledge,
+                      and prepared me to tackle real-world challenges in the field of artificial intelligence. </p>
+                  </div>
+                </div>
+              </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-5.png" alt="Cognizant Ideathon" width="60" data-testimonials-avatar />
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title> Cognizant Ideathon</h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>Securing the first position in Cognizant’s Digital Nurture Ideathon
+                      and subsequently winning an 8-week Software Developer Internship was a
+                       pivotal achievement in my career journey. During my internship, I played
+                       a key role in defining the system architecture and successfully developing
+                       an AI-based form builder chatbot. This experience not only sharpened
+                       my technical skills in software development but also provided invaluable
+                       hands-on experience in designing and implementing innovative solutions.
+                       It was immensely rewarding to contribute to real-world projects at Cognizant,
+                       and I look forward to applying these skills to future challenges in the field
+                       of technology and innovation. </p>
+                    </div>
+                  </div>
+                </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-4.png" alt="YIC Finalist" width="60" data-testimonials-avatar/>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title> YIC Finalist</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>I am incredibly proud to have been part of Team F.Y.E.T. from GLBITM,
+                      which was selected as one of the 15 finalists from Uttar Pradesh in the prestigious
+                      "Yukti Innovation" Challenge organized by the Ministry of Education, Government of India
+                      and AICTE. Our project focused on innovating solutions in health and fitness.
+                      Among over 40,000 participating teams nationwide, the recognition of our project
+                      among the top 370 teams underscores our dedication and innovation in addressing critical
+                      challenges.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box"> <img src="./assets/images/avatar-1.png" width="80" data-modal-img/> </figure>
+              </div>
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>YIC Finalist</h4>
+                <div data-modal-text>
+                  <p>I am incredibly proud to have been part of Team F.Y.E.T. from GLBITM,
+                      which was selected as one of the 15 finalists from Uttar Pradesh in the prestigious
+                      "Yukti Innovation" Challenge organized by the Ministry of Education, Government of India
+                      and AICTE. Our project focused on innovating solutions in health and fitness.
+                      Among over 40,000 participating teams nationwide, the recognition of our project
+                      among the top 370 teams underscores our dedication and innovation in addressing critical
+                      challenges.</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <article class="resume" data-page="resume">
+          <header> <h2 class="h2 article-title">Resume</h2> </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box"> <ion-icon name="book-outline"></ion-icon> </div>
+              <h3 class="h3">Education</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title"> Ganeshi Lal Bajaj Institute of Technology and Management, AKTU</h4>
+                <span>2021 - 2025</span>
+                <p class="timeline-text">Bachelor of Technology in Computer Science and Engineering<br>CGPA - 9/10 (till 5th Semester)</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Shri Gulab Rai Montessori Senior Secondary School, Bareilly, CBSE</h4>
+                <span>2020 - 2021</span>
+                <p class="timeline-text">Intermediate, Science Stream (PCM)<br>98.4 %, School & District Topper</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Shri Gulab Rai Montessori Senior Secondary School, Bareilly, CBSE</h4>
+                <span>2018 - 2019</span>
+                <p class="timeline-text">Highschool<br>98.2 %, School & District Topper</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box"> <ion-icon name="book-outline"></ion-icon> </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Software Developer Intern at COGNIZANT</h4>
+                <span>Sept 2023 - Nov 2023</span>
+                <p class="timeline-text"> As a Software Developer Intern at Cognizant, I had the invaluable opportunity to contribute to cutting-edge
+                  projects centered around Generative AI. During my tenure, I actively participated in the development of innovative solutions. These
+                  projects not only honed my technical skills but also provided me with hands-on experience in leveraging AI technologies to address
+                  real-world challenges. My time at Cognizant instilled in me a passion for pushing the boundaries of technology and finding creative
+                  solutions to complex problems.</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Technical Writer Intern at CODING NINJAS</h4>
+                <span>Jul 2023 - Sept 2023</span>
+                <p class="timeline-text">I spearheaded the creation of comprehensive project documentation and articles on emerging technologies. By
+                  building projects and crafting informative content around them, I not only enhanced my technical understanding but also developed strong
+                  communication skills. This role allowed me to bridge the gap between complex technical concepts and accessible, engaging content,
+                  contributing to the educational mission of CodingNinjas while refining my own abilities as a communicator in the tech industry.</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My Skills</h3>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper"> <h5 class="h5">Web Development</h5> <data value="90">90%</data> </div>
+                <div class="skill-progress-bg"> <div class="skill-progress-fill" style="width: 90%"></div> </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper"> <h5 class="h5">Graphic Designing</h5> <data value="90">90%</data> </div>
+                <div class="skill-progress-bg"> <div class="skill-progress-fill" style="width: 90%"></div> </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper"> <h5 class="h5">Communication</h5> <data value="100">100%</data> </div>
+                <div class="skill-progress-bg"> <div class="skill-progress-fill" style="width: 100%"></div> </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper"> <h5 class="h5">Databases</h5> <data value="85">85%</data> </div>
+                <div class="skill-progress-bg"> <div class="skill-progress-fill" style="width: 85%"></div> </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="portfolio" data-page="portfolio">
+          <header> <h2 class="h2 article-title">Portfolio</h2> </header>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item"> <button class="active" data-filter-btn>All</button> </li>
+              <li class="filter-item"> <button data-filter-btn>Web Design</button> </li>
+              <li class="filter-item"> <button data-filter-btn>Applications</button> </li>
+              <li class="filter-item"> <button data-filter-btn>Web Development</button> </li>
+            </ul>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value> Select category </div>
+                <div class="select-icon"> <ion-icon name="chevron-down"></ion-icon> </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item"> <button data-select-item>All</button> </li>
+                <li class="select-item"> <button data-select-item>Web Design</button> </li>
+                <li class="select-item"> <button data-select-item>Applications</button> </li>
+                <li class="select-item"> <button data-select-item>Web Development</button> </li>
+              </ul>
+            </div>
+            <ul class="project-list">
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/JuhiPathak23" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"> <ion-icon name="eye-outline"></ion-icon> </div>
+                    <img src="./assets/images/1.png" alt="EcoParali" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">EcoParali</h3>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="applications">
+                <a href="https://github.com/JuhiPathak23" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"> <ion-icon name="eye-outline"></ion-icon> </div>
+                    <img src="./assets/images/8.png" alt="F.Y.E.T" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">F.Y.E.T</h3>
+                  <p class="project-category">Application</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/JuhiPathak23" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"> <ion-icon name="eye-outline"></ion-icon> </div>
+                    <img src="./assets/images/9.png" alt="Krishi Crew" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">Krishi Crew</h3>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/JuhiPathak23" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"> <ion-icon name="eye-outline"></ion-icon> </div>
+                    <img src="./assets/images/2.png" alt="Netflix" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">Netflix</h3>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web design">
+                <a href="https://github.com/JuhiPathak23" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"> <ion-icon name="eye-outline"></ion-icon> </div>
+                    <img src="./assets/images/3.png" alt="VoyageVerse" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">VoyageVerse</h3>
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/JuhiPathak23" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"> <ion-icon name="eye-outline"></ion-icon> </div>
+                    <img src="./assets/images/4.png" alt="Haruki" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">Haruki</h3>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="applications">
+                <a href="https://github.com/JuhiPathak23" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"> <ion-icon name="eye-outline"></ion-icon> </div>
+                    <img src="./assets/images/5.png" alt="PromptPal" loading="lazy" />
+                  </figure>
+                  <h3 class="project-title">PromptPal</h3>
+                  <p class="project-category">Application</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="applications">
+                <a href="https://github.com/JuhiPathak23" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"> <ion-icon name="eye-outline"></ion-icon></div>
+                    <img src="./assets/images/6.png" alt="Eyeball Tracker" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">Eyeball Tracker</h3>
+                  <p class="project-category">Application</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web design">
+                <a href="https://github.com/JuhiPathak23" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"> <ion-icon name="eye-outline"></ion-icon> </div>
+                    <img src="./assets/images/7.png" alt="DiscordUI" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">DiscordUI</h3>
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="blog" data-page="blog">
+          <header> <h2 class="h2 article-title">Blog</h2></header>
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="https://medium.com/@juhipathak23/do-you-like-prunes-a60cb54657e3" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-1.jpg" alt="Do you like 'Prunes'?" loading="lazy"/>
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Technology</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Jun 14, 2024</time>
+                    </div>
+                    <h3 class="h3 blog-item-title"> Do you like "Prunes"?</h3>
+                    <p class="blog-text"> Gives you a detailed walkthrough of Pruning in PyTorch</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://medium.com/@juhipathak23/too-many-chaos-chaos-engineering-in-devops-1b2b3830c32c" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-2.jpg" alt="Too many 'Chaos" loading="lazy"/>
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Technology</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Jun 14, 2024</time>
+                    </div>
+                    <h3 class="h3 blog-item-title"> Too many "Chaos"</h3>
+                    <p class="blog-text"> Get ready to learn about Chaos Engineering in DevOps</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://medium.com/@juhipathak23/where-are-you-looking-at-opencv-eyeball-tracker-88c0b5723168" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*XZiePIkTtiGI08kM.jpg" alt="What are you looking at?" loading="lazy"/>
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Technology</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Jun 14, 2024</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">What are you looking at?</h3>
+                    <p class="blog-text"> A guide to building an Eyeball Tracker using OpenCV </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://medium.com/@juhipathak23/do-you-know-about-recovery-testing-4a941a390047" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*utWc1Zt9W1y6ezCU.jpg" alt="Do you know about Recovery Testing?" loading="lazy"/>
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Technology</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Jun 14, 2024</time>
+                    </div>
+                    <h3 class="h3 blog-item-title"> Do you know about Recovery Testing?</h3>
+                    <p class="blog-text">Learn about Recovery Testing in Software Testing </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224408.21866196548!2d77.35118326500722!3d28.498260403314916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea64b8f89aef%3A0xec0ccabb5317962e!2sGreater%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1718341836768!5m2!1sen!2sin"
+                width="400" height="300" loading="lazy"></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+            <form action="assets/php/data.php" class="form" data-form method="post">
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input/>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input/>
+              </div>
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon> <span>Send Message</span> </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
